@@ -58,6 +58,14 @@ body {
       top: 80px;
 
       background-color: #2F303A;
+    }
+
+
+ul {
+
+list-style-type: none;
+
+}
   }
 
 
