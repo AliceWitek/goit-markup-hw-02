@@ -35,9 +35,11 @@ body {
         line-height: 36px;
         letter-spacing: 0.03em;
 
-        color: #2196f3;
+        color: #000;  
+  }
 
-     
+  .web{
+      color: #2196F3;
   }
 
 
