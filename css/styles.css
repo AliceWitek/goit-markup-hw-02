@@ -20,7 +20,8 @@ body {
 
 }
 /*WebStudio logo*/
-  .logo-link
+  .logo-link , 
+  .logo-footer
    {
 
         position:absolute;
@@ -47,5 +48,7 @@ body {
       text-decoration: none;
       color: #000; 
   }
+
+
 
 
