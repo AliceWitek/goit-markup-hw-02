@@ -267,6 +267,14 @@ ul {
 list-style-type: none;
 
 }
+
+.advantages{
+    position: absolute;
+width: 1170px;
+height: 101px;
+left: 215px;
+top: 774px;
+}
   .adventages-list {
       display: flex;
   }
