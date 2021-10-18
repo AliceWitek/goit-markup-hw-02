@@ -98,6 +98,17 @@ color: rgba(255, 255, 255, 0.6);
 
   }
 
+  .footer {
+      position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+
+background: #2F303A;
+
+
+  }
   .address-text{
 position: absolute;
 width: 246px;
