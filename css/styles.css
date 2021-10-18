@@ -180,6 +180,29 @@ color: #757575;
       top: 80px;
 
       background-color: #2F303A;
+
+    }
+
+    .button-01 {
+position: absolute;
+width: 117px;
+height: 30px;
+left: 742px;
+top: 440px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
     }
 
 
