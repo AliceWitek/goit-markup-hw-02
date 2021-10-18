@@ -229,7 +229,10 @@ text-transform: uppercase;
 color: #FFFFFF;
  }
 
- .adventages-list {
+ .lorem-ipsum-1 , 
+ .lorem-ipsum-2 , 
+ .lorem-ipsum-3 , 
+ .lorem-ipsum-4 {
      position: absolute;
 width: 270px;
 height: 75px;
@@ -248,7 +251,7 @@ letter-spacing: 0.03em;
 color: #757575;
 
  }
- 
+
 ul {
 
 list-style-type: none;
