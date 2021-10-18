@@ -419,6 +419,36 @@ top: 1061px;
 
 }
 
+.our-team{
+position: absolute;
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1449px;
+
+
+background: #F5F4FA;
+}
+
+.our-team-members{
+    position: absolute;
+width: 210px;
+height: 42px;
+left: 695px;
+top: 1543px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+
 .footer {
 position: absolute;
 width: 246px;
