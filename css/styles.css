@@ -229,6 +229,26 @@ text-transform: uppercase;
 color: #FFFFFF;
  }
 
+ .adventages-list {
+     position: absolute;
+width: 270px;
+height: 75px;
+left: 1115px;
+top: 800px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+
+ }
+ 
 ul {
 
 list-style-type: none;
