@@ -66,7 +66,7 @@ body {
 
   /*Menu*/
 
-  .active-link {
+  .agency-link {
       position: absolute;
       width: 53px;
       height: 16px;
@@ -80,8 +80,12 @@ line-height: 16px;
 letter-spacing: 0.02em;
 
 
-      color:#2196F3
+      color:#212121;
 
+  }
+
+  .agency-link:active{
+       color:#2196F3;
   }
 
   .portfolio-link{
@@ -101,6 +105,11 @@ letter-spacing: 0.02em;
       color: #212121;
 
 
+
+  }
+
+  .portfolio-link:hover{
+      color:#2196F3
   }
 .contact-link{
    position: absolute;
@@ -117,6 +126,10 @@ line-height: 16px;
 letter-spacing: 0.02em;
 
 color: #212121; 
+}
+
+.contact-link:hover{
+color:#2196F3
 }
 
 .mail-link {
@@ -228,16 +241,12 @@ text-transform: uppercase;
 
 color: #FFFFFF;
  }
-
+/* Lighter LI*/
  .lorem-ipsum-1 , 
  .lorem-ipsum-2 , 
  .lorem-ipsum-3 , 
  .lorem-ipsum-4 {
-     position: absolute;
-width: 270px;
-height: 75px;
-left: 1115px;
-top: 800px;
+
 
 font-family: Roboto;
 font-style: normal;
@@ -249,6 +258,10 @@ line-height: 24px;
 letter-spacing: 0.03em;
 
 color: #757575;
+
+
+
+
 
  }
 
