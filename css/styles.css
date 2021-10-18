@@ -278,7 +278,14 @@ top: 774px;
   .adventages-list {
       display: flex;
   }
-
+ 
+.what-we-do{
+    position: absolute;
+width: 1170px;
+height: 386px;
+left: 215px;
+top: 969px;
+}
   
 
 
