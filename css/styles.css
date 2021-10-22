@@ -13,7 +13,6 @@ body {
 
 .menu{
 
-    position: absolute;
     width: 1600px;
     height: 80px;
     left: 0px;
@@ -26,7 +25,7 @@ body {
   .logo-link 
    {
 
-        position:absolute;
+      
         width: 145px;
         height:31px;
         left: 215px;
@@ -44,7 +43,7 @@ body {
 
   .logo-footer {
 
-       position: absolute;
+      
        width: 145px;
        height: 31px;
        left: 215px;
@@ -60,7 +59,6 @@ body {
 
   .phone-number-1 {
 
-    position: absolute;
 width: 231px;
 height: 21px;
 left: 215px;
@@ -79,7 +77,7 @@ color: rgba(255, 255, 255, 0.6);
   }
 
   .mail-1 {
-      position: absolute;
+      
 width: 231px;
 height: 21px;
 left: 215px;
@@ -99,7 +97,7 @@ color: rgba(255, 255, 255, 0.6);
   }
 
   .footer {
-      position: absolute;
+      
 width: 1600px;
 height: 252px;
 left: 0px;
@@ -110,7 +108,7 @@ background: #2F303A;
 
   }
   .address-text{
-position: absolute;
+
 width: 246px;
 height: 21px;
 left: 215px;
@@ -129,7 +127,7 @@ top: 2208px;
   /*Menu*/
 
   .agency-link {
-      position: absolute;
+     
       width: 53px;
       height: 16px;
       left: 453px;
@@ -151,7 +149,7 @@ letter-spacing: 0.02em;
   }
 
   .portfolio-link{
-      position: absolute;
+     
       width: 58px;
       height: 16px;
       left: 552px;
@@ -174,7 +172,7 @@ letter-spacing: 0.02em;
       color:#2196F3
   }
 .contact-link{
-   position: absolute;
+   
 width: 51px;
 height: 16px;
 left: 656px;
@@ -195,7 +193,7 @@ color:#2196F3
 }
 
 .mail-link {
-    position: absolute;
+   
 width: 135px;
 height: 16px;
 left: 1078px;
@@ -213,7 +211,7 @@ color: #757575;
 }
 
 .mail-link:hover {
-    position: absolute;
+
 width: 135px;
 height: 16px;
 left: 1078px;
@@ -230,7 +228,7 @@ color: #2196F3;
 }
 
 .tel-link{
-    position: absolute;
+   
 width: 110px;
 height: 16px;
 left: 1263px;
@@ -248,7 +246,7 @@ color: #757575;
   
   /*Header*/
   .company-slogan {
-      position: absolute;
+     
       width: 1600px;
       height: 600px;
       left: 0px;
@@ -259,7 +257,7 @@ color: #757575;
     }
 
     .button-01 {
-position: absolute;
+
 width: 117px;
 height: 30px;
 left: 742px;
@@ -285,7 +283,7 @@ border-radius: 4px;
 }
 
  .slogan {
-position: absolute;
+
 width: 696px;
 height: 120px;
 left: 452px;
@@ -332,7 +330,7 @@ list-style-type: none;
 }
 
 .advantages{
-    position: absolute;
+   
 width: 1170px;
 height: 101px;
 left: 215px;
@@ -343,7 +341,7 @@ top: 774px;
   }
  
 .what-we-do{
-    position: absolute;
+   
 width: 1170px;
 height: 386px;
 left: 215px;
@@ -351,7 +349,7 @@ top: 969px;
 }
 
 .what-we-do-text {
-position: absolute;
+
 width: 352px;
 height: 42px;
 left: 624px;
@@ -370,7 +368,7 @@ color: #212121;
 }
 
 .code-picture {
-position: absolute;
+
 width: 370px;
 height: 294px;
 left: 215px;
@@ -378,7 +376,7 @@ top: 1061px;
 }
 
 .code-1{
-position: absolute;
+
 width: 370px;
 height: 294px;
 left: 215px;
@@ -387,7 +385,7 @@ top: 1061px;
 }
   
 .design-picture {
-position: absolute;
+
 width: 370px;
 height: 294px;
 left: 615px;
@@ -395,7 +393,7 @@ top: 1061px;
 }
 
 .design-1 {
-position: absolute;
+
 width: 370px;
 height: 294px;
 left: 615px;
@@ -403,7 +401,7 @@ top: 1061px;
 }
 
 .color-picture {
-position: absolute;
+
 width: 370px;
 height: 294px;
 left: 1015px;
@@ -411,7 +409,7 @@ top: 1061px;
 }
 
 .color-1 {
-position: absolute;
+
 width: 370px;
 height: 294px;
 left: 1015px;
@@ -420,7 +418,7 @@ top: 1061px;
 }
 
 .our-team{
-position: absolute;
+
 width: 1600px;
 height: 648px;
 left: 0px;
@@ -431,7 +429,7 @@ background: #F5F4FA;
 }
 
 .our-team-members{
-    position: absolute;
+  
 width: 210px;
 height: 42px;
 left: 695px;
@@ -450,7 +448,7 @@ color: #212121;
 
 
 .footer {
-position: absolute;
+
 width: 246px;
 height: 81px;
 left: 215px;
@@ -460,7 +458,7 @@ top: 2208px;
 }
 
 address {
-position: absolute;
+
 width: 145px;
 height: 31px;
 left: 215px;
