@@ -21,6 +21,27 @@ body {
     background-color:#FFFFFF;
 
 }
+
+.logo-link:hover {
+    color:#2196F3;
+    
+
+}
+.logo-link:focus {
+    color: #2196F3;
+
+}
+
+.site-nav:hover {
+    color: #2196F3;
+
+}
+
+.site-nav:focus {
+    color: #2196F3;
+
+}
+
 /*WebStudio logo*/
   .logo-link 
    {
