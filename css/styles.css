@@ -6,8 +6,7 @@
 }
  
 body{
-    --font-family:--secondary-font;
-
+    font-family:'Roboto','Raleway'
 }
 
 /*BASICS*/
@@ -48,7 +47,7 @@ list-style-type: none;
         left: 215px;
         top: 24px;
 
-        font-family:Raleway;
+        font-family:'Raleway'
         font-style: normal;
         font-weight: bold;
         font-size: 26px;
@@ -85,7 +84,7 @@ list-style-type: none;
       height: 16px;
       left: 453px;
       top: 32px;
-      font-family: Roboto;
+      
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -116,7 +115,7 @@ margin-left:93px;
       left: 552px;
       top: 32px;
 
-      font-family: Roboto;
+    
       font-style: normal;
       font-weight: 500;
       font-size: 14px;
@@ -147,7 +146,7 @@ height: 16px;
 left: 656px;
 top: 32px;
 
-font-family: Roboto;
+
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -175,7 +174,7 @@ height: 16px;
 left: 1078px;
 top: 32px;
 
-font-family: Roboto;
+
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -204,7 +203,7 @@ height: 16px;
 left: 1263px;
 top: 32px;
 
-font-family: Roboto;
+
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -259,7 +258,7 @@ padding: 111px 1139px 120px 215px;
        left: 215px;
        top: 2157px;
 
-        font-family:Raleway;
+        font-family:'Raleway';
         font-style: normal;
         font-weight: bold;
         font-size: 26px;
@@ -288,12 +287,12 @@ height: 21px;
 left: 215px;
 top: 2268px;
 
-font-family: Roboto;
+
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 24px;
-/* or 171% */
+
 
 letter-spacing: 0.03em;
 
@@ -310,12 +309,12 @@ height: 21px;
 left: 215px;
 top: 2238px;
 
-font-family: Roboto;
+
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 24px;
-/* or 171% */
+
 
 letter-spacing: 0.03em;
 
@@ -346,12 +345,11 @@ height: 120px;
 left: 452px;
 top: 280px;
 
-font-family: Roboto;
+
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
-/* or 136% */
 
 text-align: center;
 letter-spacing: 0.06em;
@@ -368,12 +366,11 @@ height: 30px;
 left: 742px;
 top: 440px;
 
-font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
 line-height: 30px;
-/* identical to box height, or 187% */
+
 
 display: flex;
 align-items: center;
@@ -396,13 +393,13 @@ border-radius: 4px;
  .l-i-4 {
 
 
-position: absolute;
+
 width: 270px;
 height: 16px;
 left: 215px;
 top: 774px;
 
-font-family: Roboto;
+
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
@@ -418,7 +415,7 @@ color: #212121;
  .lorem-ipsum-2-text,
  .lorem-ipsum-3-text,
  .lorem-ipsum-4-text {
-     font-family: Roboto;
+     
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -463,7 +460,7 @@ height: 42px;
 left: 624px;
 top: 969px;
 
-font-family: Roboto;
+
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -543,7 +540,7 @@ height: 42px;
 left: 695px;
 top: 1543px;
 
-font-family: Roboto;
+
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
