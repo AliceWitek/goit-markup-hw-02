@@ -7,6 +7,7 @@
  
 body{
     --font-family:var(--main-font)
+    var(--main-color)
 }
 
 
@@ -17,8 +18,7 @@ body{
 
   ul {
 
-list-style-type: none;
-
+      list-style-type: none;
   }
 
   /*WEB LOGO, SITE-NAV & CONTACTS*/
