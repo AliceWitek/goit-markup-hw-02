@@ -7,9 +7,20 @@ body {
     height: 2349px;
 }
 
-/*logo, nawigacja po stronie oraz z dane do kontaktu*/
+/*BASICS*/
+ a {
+      text-decoration: none;
+      color: #000; 
+  }
 
-/*Top line*/
+  ul {
+
+list-style-type: none;
+
+}
+  /*Web Logo, site-nav & contacts*/
+
+/*Top line-MENU*/
 
 .menu{
 
@@ -22,27 +33,8 @@ body {
 
 }
 
-.logo-link:hover {
-    color:#2196F3;
-    
 
-}
-.logo-link:focus {
-    color: #2196F3;
-
-}
-
-.site-nav:hover {
-    color: #2196F3;
-
-}
-
-.site-nav:focus {
-    color: #2196F3;
-
-}
-
-/*WebStudio logo*/
+/*WEBSTUDIO LOGO*/
   .logo-link 
    {
 
@@ -61,10 +53,190 @@ body {
 
          
   }
+/* LOGO SPAN*/
 
-  .logo-footer {
+  .web{
+      color: #2196F3;
+  }
 
+  /*Active link */
+
+.logo-link:hover {
+    color:#2196F3;
+    
+
+}
+.logo-link:focus {
+    color: #2196F3;
+
+}
+
+  /*AGENCY*/
+
+  .agency-link {
+     
+      width: 53px;
+      height: 16px;
+      left: 453px;
+      top: 32px;
+      font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+
+      color:#212121;
+
+  }
+
+  /*Active link*/
+
+  .agency-link:hover{
+       color:#2196F3;
+  }
+
+  .agency-link:focus {
+      color:#2196F3;
+  }
+
+  /*PORTFOLIO*/
+  .portfolio-link{
+     
+      width: 58px;
+      height: 16px;
+      left: 552px;
+      top: 32px;
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.02em;
+
+      color: #212121;
+
+  }
+
+  /*Active-link*/
+
+  .portfolio-link:hover{
+      color:#2196F3
+  }
+
+  .portfolio-link:focus {
+      color: #2196F3;
+  }
+
+  /*CONTACTS*/
+.contact-link{
+   
+width: 51px;
+height: 16px;
+left: 656px;
+top: 32px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121; 
+}
+/*Active link*/ 
+.contact-link:hover{
+color:#2196F3
+}
+
+.contact-link:focus {
+    color: #2196F3;
+}
+
+/*MAIL ADRESS*/
+.mail-link {
+   
+width: 135px;
+height: 16px;
+left: 1078px;
+top: 32px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
+
+}
+
+/*Active link*/
+.mail-link:hover {
+color: #2196F3;
+}
+
+.mail-link:focus {
+    color: #2196F3;
+}
+/*PHONE NUMBER*/
+.tel-link{
+   
+width: 110px;
+height: 16px;
+left: 1263px;
+top: 32px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
+}
+/*Active link*/
+
+.tel-link:hover {
+    color: #2196F3;
+}
+
+.tel-link:focus {
+    color: #2196F3;
+}
+/*FOOTER*/
+
+
+  .footer {
       
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+
+background: #2F303A;
+  }
+
+  
+
+/*FOOTER STYLES*/
+
+/*Adress*/
+  .address-text{
+
+width: 246px;
+height: 21px;
+left: 215px;
+top: 2208px;
+  }
+
+/*LOGO FOOTER STYLES*/
+  .logo-footer {  
        width: 145px;
        height: 31px;
        left: 215px;
@@ -78,6 +250,16 @@ body {
         letter-spacing: 0.03em;
   }
 
+  /*Active link*/
+  .logo-footer-1:hover {
+      color: #2196F3;
+  }
+
+  .logo-footer-1:focus {
+      color: #2196F3;
+  }
+
+  /*PHONE-NUMBER*/
   .phone-number-1 {
 
 width: 231px;
@@ -97,6 +279,7 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
   }
 
+  /*MAIL ADRESS*/
   .mail-1 {
       
 width: 231px;
@@ -117,171 +300,11 @@ color: rgba(255, 255, 255, 0.6);
 
   }
 
-  .footer {
-      
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2097px;
 
-background: #2F303A;
-
-
-  }
-  .address-text{
-
-width: 246px;
-height: 21px;
-left: 215px;
-top: 2208px;
-  }
-
-  .web{
-      color: #2196F3;
-  }
-
-  a {
-      text-decoration: none;
-      color: #000; 
-  }
-
-  /*Menu*/
-
-  .agency-link {
-     
-      width: 53px;
-      height: 16px;
-      left: 453px;
-      top: 32px;
-      font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-
-      color:#212121;
-
-  }
-
-  .agency-link:hover{
-       color:#2196F3;
-  }
-
-  .agency-link:focus {
-      color:#2196F3;
-  }
-
-  .portfolio-link{
-     
-      width: 58px;
-      height: 16px;
-      left: 552px;
-      top: 32px;
-
-      font-family: Roboto;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 16px;
-      letter-spacing: 0.02em;
-
-      color: #212121;
-
-
-
-  }
-
-  .portfolio-link:hover{
-      color:#2196F3
-  }
-.contact-link{
-   
-width: 51px;
-height: 16px;
-left: 656px;
-top: 32px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #212121; 
-}
-
-.contact-link:hover{
-color:#2196F3
-}
-
-.mail-link {
-   
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #757575;
-
-}
-
-.mail-link:hover {
-
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #2196F3;
-}
-
-.mail-link:focus {
-    color: #2196F3;
-}
-
-.tel-link{
-   
-width: 110px;
-height: 16px;
-left: 1263px;
-top: 32px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #757575;
-}
-
-.tel-link:hover {
-    color: #2196F3;
-}
-
-.tel-link:focus {
-    color: #2196F3;
-}
   
-  /*Header*/
+  /*HEADER*/
+
+  /*SLOGAN BG*/
   .company-slogan {
      
       width: 1600px;
@@ -292,7 +315,29 @@ color: #757575;
       background-color: #2F303A;
 
     }
+/*SLOGAN TEXT*/
+     .slogan {
 
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+ }
+
+/*BUTTONS*/
     .button-01 {
 
 width: 117px;
@@ -319,34 +364,38 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
 
- .slogan {
+/*LOREM IPSUM SECTION*/
 
-width: 696px;
-height: 120px;
-left: 452px;
-top: 280px;
+/* DARKER LI TEXT*/
+ .l-i-1 , 
+ .l-i-2 , 
+ .l-i-3 , 
+ .l-i-4 {
+
+
+position: absolute;
+width: 270px;
+height: 16px;
+left: 215px;
+top: 774px;
 
 font-family: Roboto;
 font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-/* or 136% */
-
-text-align: center;
-letter-spacing: 0.06em;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 
-color: #FFFFFF;
+color: #212121;
  }
-/* Lighter LI*/
- .lorem-ipsum-1 , 
- .lorem-ipsum-2 , 
- .lorem-ipsum-3 , 
- .lorem-ipsum-4 {
 
-
-font-family: Roboto;
+ /*LIGHTER LI TEXT*/
+ .lorem-ipsum-1-text,
+ .lorem-ipsum-2-text,
+ .lorem-ipsum-3-text,
+ .lorem-ipsum-4-text {
+     font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -357,14 +406,11 @@ letter-spacing: 0.03em;
 
 color: #757575;
  column-count: 4;
-
- }
-
-ul {
-
-list-style-type: none;
-
 }
+
+ 
+
+/*OUR ADVANTAGES SECTION*/
 
 .advantages{
    
@@ -377,6 +423,8 @@ top: 774px;
       display: flex;
   }
  
+
+  /*WHAT WE DO SECTION*/
 .what-we-do{
    
 width: 1170px;
