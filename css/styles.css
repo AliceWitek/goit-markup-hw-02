@@ -25,11 +25,7 @@ list-style-type: none;
 
 }
 
-.body{
-width:1600px;
-height: 2349px;
-margin:auto
-}
+
 
   /*WEB LOGO, SITE-NAV & CONTACTS*/
 
@@ -391,8 +387,9 @@ letter-spacing: 0.06em;
 color: #FFFFFF;
 
 background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+box-shadow: px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
+cursor:pointer;
 }
 
 /*LOREM IPSUM SECTION*/
@@ -563,26 +560,14 @@ color: #212121;
 }
 
 
-.footer {
-
-width: 246px;
-height: 81px;
-left: 215px;
-top: 2208px;
-
-
+/*PORTFOLIO BUTTONS*/
+.button-1,
+.button-2,
+.button-3,
+.button-4
+.button-5 {
+    cursor:pointer;
 }
-
-address {
-
-width: 145px;
-height: 31px;
-left: 215px;
-top: 2157px;
-}
-
-
-
   
 
 
