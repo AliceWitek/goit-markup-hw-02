@@ -7,6 +7,7 @@
  
 body{
     --font-family:var(--main-font)
+}
 
 
  a {
@@ -18,7 +19,7 @@ body{
 
 list-style-type: none;
 
-}
+  }
 
   /*WEB LOGO, SITE-NAV & CONTACTS*/
 
@@ -301,7 +302,7 @@ padding: 171px 1154px 60px 215px;
 color: rgba(255, 255, 255, 0.6);
   }
 
-  
+
 
   /*MAIL ADRESS*/
   .mail-1 {
