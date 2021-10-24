@@ -1,16 +1,16 @@
 
 :root {
-  --main-font:'Roboto', sans-serif;
-  --secondary-font: 'Raleway', sans-serif;
+  --main-font:'Raleway', sans-serif;
+  --secondary-font: 'Roboto', sans-serif;
   --main-color:#2196F3;
 }
  
 body{
-    --font-family:var(--main-font)
-    var(--main-color)
+    --font-family:--secondary-font;
+
 }
 
-
+/*BASICS*/
  a {
       text-decoration: none;
       color: #000; 
@@ -18,9 +18,9 @@ body{
 
   ul {
 
-      list-style-type: none;
-  }
+list-style-type: none;
 
+}
   /*WEB LOGO, SITE-NAV & CONTACTS*/
 
 /*MENU*/
@@ -301,8 +301,6 @@ padding: 171px 1154px 60px 215px;
 
 color: rgba(255, 255, 255, 0.6);
   }
-
-
 
   /*MAIL ADRESS*/
   .mail-1 {
