@@ -373,7 +373,6 @@ height: 30px;
 left: 742px;
 top: 440px;
 
-font-style: normal;
 font-weight: bold;
 font-size: 16px;
 line-height: 30px;
@@ -386,7 +385,7 @@ letter-spacing: 0.06em;
 
 color: #FFFFFF;
 
-background: #2196F3;
+background-color: #2196F3;
 box-shadow: px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 cursor:pointer;
