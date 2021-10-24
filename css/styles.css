@@ -30,6 +30,7 @@ list-style-type: none;
     top: 0px;
 
     background-color:#FFFFFF;
+    display:flex;
     align-items: baseline;
 }
 
