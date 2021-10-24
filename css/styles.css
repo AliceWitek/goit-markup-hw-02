@@ -40,7 +40,8 @@ list-style-type: none;
 
     background-color:#FFFFFF;
     display:flex;
-    align-items:baseline;
+    align-items:center;
+    flex-wrap: nowrap;
 }
 
 
@@ -52,17 +53,12 @@ list-style-type: none;
         width: 145px;
         height:31px;
         left: 215px;
-        top: 24px;
 
         font-family:'Raleway';
-        font-style: normal;
         font-weight: bold;
         font-size: 26px;
-        line-height: 36px;
         letter-spacing: 0.03em;
-        
-        padding:24px 1240px 25px 215px;
-
+        text-decoration: none;
         color:#000
   }
 /* LOGO SPAN*/
@@ -81,6 +77,15 @@ list-style-type: none;
 .logo-link:focus {
     color: #2196F3;
 
+}
+/*NAV*/
+
+nav {
+    width: 254px;
+    left: 453px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
   /*AGENCY*/
