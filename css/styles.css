@@ -165,8 +165,12 @@ letter-spacing: 0.02em;
 
   }
 
-  .agency-link:active{
+  .agency-link:hover{
        color:#2196F3;
+  }
+
+  .agency-link:focus {
+      color:#2196F3;
   }
 
   .portfolio-link{
