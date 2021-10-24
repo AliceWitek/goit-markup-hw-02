@@ -252,6 +252,10 @@ letter-spacing: 0.02em;
 color: #2196F3;
 }
 
+.mail-link:focus {
+    color: #2196F3;
+}
+
 .tel-link{
    
 width: 110px;
@@ -267,6 +271,14 @@ line-height: 16px;
 letter-spacing: 0.02em;
 
 color: #757575;
+}
+
+.tel-link:hover {
+    color: #2196F3;
+}
+
+.tel-link:focus {
+    color: #2196F3;
 }
   
   /*Header*/
