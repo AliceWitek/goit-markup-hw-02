@@ -18,9 +18,9 @@ body {
 list-style-type: none;
 
 }
-  /*Web Logo, site-nav & contacts*/
+  /*WEB LOGO, SITE-NAV & CONTACTS*/
 
-/*Top line-MENU*/
+/*MENU*/
 
 .menu{
 
@@ -31,7 +31,7 @@ list-style-type: none;
 
     background-color:#FFFFFF;
     display:flex;
-    align-items: baseline;
+    align-items:flex-start;
 }
 
 
@@ -51,8 +51,10 @@ list-style-type: none;
         font-size: 26px;
         line-height: 36px;
         letter-spacing: 0.03em;
+        
+        padding:24px 1240px 25px 215px;
 
-         
+        color:#000
   }
 /* LOGO SPAN*/
 
@@ -87,6 +89,7 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 
+padding: 32px 1094px 32px 453px;
 
       color:#212121;
 
@@ -117,6 +120,8 @@ letter-spacing: 0.02em;
       line-height: 16px;
       letter-spacing: 0.02em;
 
+      padding: 32px 990px 32px 552px;
+
       color: #212121;
 
   }
@@ -146,6 +151,8 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 
+padding: 32px 893px 32px 656px;
+
 color: #212121; 
 }
 /*Active link*/ 
@@ -171,6 +178,8 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
+
+padding: 32px 387px 32px 1078px;
 
 color: #757575;
 
@@ -198,6 +207,8 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
+
+padding:32px 227px 32px 1263px;
 
 color: #757575;
 }
@@ -234,6 +245,8 @@ width: 246px;
 height: 21px;
 left: 215px;
 top: 2208px;
+
+padding: ;
   }
 
 /*LOGO FOOTER STYLES*/
@@ -249,6 +262,10 @@ top: 2208px;
         font-size: 26px;
         line-height: 36px;
         letter-spacing: 0.03em;
+
+        padding:60px 1240px 161px 215px;
+
+        color: #000;
   }
 
   /*Active link*/
