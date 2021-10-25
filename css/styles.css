@@ -61,23 +61,7 @@ list-style-type: none;
         text-decoration: none;
         color:#000
   }
-/* LOGO SPAN*/
 
-  .web{
-      color: #2196F3;
-  }
-
-  /*Active link */
-
-.logo-link:hover {
-    color:#2196F3;
-    
-
-}
-.logo-link:focus {
-    color: #2196F3;
-
-}
 /*NAV*/
 
 nav {
@@ -110,14 +94,27 @@ margin-left:93px;
   }
 
   /*Active link*/
-
-  .agency-link:hover{
+.web,
+.logo-link:hover,
+.logo-link:focus,
+.agency-link:hover,
+.agency-link:focus,
+.agency-link:active,
+.portfolio-link:focus,
+.portfolio-link:hover,
+.contact-link:hover,
+.contact-link:focus,
+.mail-link:hover,
+.mail-link:focus,
+.tel-link:hover,
+.tel-link:focus,
+.logo-footer-1:hover,
+.logo-footer-1:focus{
        color:#2196F3;
   }
 
-  .agency-link:focus {
-      color:#2196F3;
-  }
+  
+  
 
   /*PORTFOLIO*/
   .portfolio-link{
@@ -140,15 +137,7 @@ margin-left:93px;
 
   }
 
-  /*Active-link*/
-
-  .portfolio-link:hover{
-      color:#2196F3
-  }
-
-  .portfolio-link:focus {
-      color: #2196F3;
-  }
+ 
 
   /*CONTACTS*/
 .contact-link{
@@ -169,14 +158,7 @@ padding: 32px 893px 32px 656px;
 
 color: #212121; 
 }
-/*Active link*/ 
-.contact-link:hover{
-color:#2196F3
-}
 
-.contact-link:focus {
-    color: #2196F3;
-}
 
 /*MAIL ADRESS*/
 .mail-link {
@@ -199,14 +181,6 @@ color: #757575;
 
 }
 
-/*Active link*/
-.mail-link:hover {
-color: #2196F3;
-}
-
-.mail-link:focus {
-    color: #2196F3;
-}
 /*PHONE NUMBER*/
 .tel-link{
    
@@ -226,15 +200,7 @@ padding:32px 227px 32px 1263px;
 
 color: #757575;
 }
-/*Active link*/
 
-.tel-link:hover {
-    color: #2196F3;
-}
-
-.tel-link:focus {
-    color: #2196F3;
-}
 /*FOOTER*/
 
 
@@ -282,14 +248,7 @@ padding: 111px 1139px 120px 215px;
         color: #000;
   }
 
-  /*Active link*/
-  .logo-footer-1:hover {
-      color: #2196F3;
-  }
-
-  .logo-footer-1:focus {
-      color: #2196F3;
-  }
+  
 
   /*PHONE-NUMBER*/
   .phone-number-1 {
@@ -321,8 +280,6 @@ height: 21px;
 left: 215px;
 top: 2238px;
 
-
-font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 24px;
