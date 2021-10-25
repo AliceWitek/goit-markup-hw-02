@@ -9,7 +9,6 @@ body{
     font-family:'Roboto','Raleway';
     width:1600px;
 height: 2349px;
-
 background-color: #FFFFFF;
 }
 
@@ -37,7 +36,6 @@ list-style-type: none;
     height: 80px;
     left: 0px;
     top: 0px;
-
     background-color:#FFFFFF;
     display:flex;
     align-items:center;
@@ -51,9 +49,8 @@ list-style-type: none;
 
       
         width: 145px;
-        height:31px;
+        height: 31px;
         left: 215px;
-
         font-family:'Raleway';
         font-weight: bold;
         font-size: 26px;
@@ -77,20 +74,14 @@ nav {
   .agency-link {
      
       width: 53px;
-      height: 16px;
       left: 453px;
       top: 32px;
-      
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-padding: 32px 1094px 32px 453px;
-margin-left:93px;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      margin-left:93px;
       color:#212121;
-
+      text-decoration: none;
   }
 
   /*Active link*/
@@ -102,6 +93,7 @@ margin-left:93px;
 .agency-link:active,
 .portfolio-link:focus,
 .portfolio-link:hover,
+.portfolio-link:active,
 .contact-link:hover,
 .contact-link:focus,
 .mail-link:hover,
@@ -111,6 +103,8 @@ margin-left:93px;
 .logo-footer-1:hover,
 .logo-footer-1:focus{
        color:#2196F3;
+       text-decoration: none;
+       cursor: pointer;
   }
 
   
@@ -120,19 +114,12 @@ margin-left:93px;
   .portfolio-link{
      
       width: 58px;
-      height: 16px;
       left: 552px;
       top: 32px;
-
-    
-      font-style: normal;
       font-weight: 500;
       font-size: 14px;
-      line-height: 16px;
       letter-spacing: 0.02em;
-
-      padding: 32px 990px 32px 552px;
-
+      text-decoration: none;
       color: #212121;
 
   }
@@ -143,19 +130,12 @@ margin-left:93px;
 .contact-link{
    
 width: 51px;
-height: 16px;
 left: 656px;
 top: 32px;
-
-
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
 letter-spacing: 0.02em;
-
-padding: 32px 893px 32px 656px;
-
+text-decoration: none;
 color: #212121; 
 }
 
@@ -164,19 +144,13 @@ color: #212121;
 .mail-link {
    
 width: 135px;
-height: 16px;
 left: 1078px;
 top: 32px;
-
-
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-
-padding: 32px 387px 32px 1078px;
-
+text-decoration: none;
 color: #757575;
 
 }
@@ -185,19 +159,13 @@ color: #757575;
 .tel-link{
    
 width: 110px;
-height: 16px;
 left: 1263px;
 top: 32px;
-
-
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-
-padding:32px 227px 32px 1263px;
-
+text-decoration: none;
 color: #757575;
 }
 
@@ -210,7 +178,6 @@ width: 1600px;
 height: 252px;
 left: 0px;
 top: 2097px;
-
 background: #2F303A;
   }
 
@@ -226,7 +193,7 @@ height: 21px;
 left: 215px;
 top: 2208px;
 
-padding: 111px 1139px 120px 215px;
+
   }
 
 /*LOGO FOOTER STYLES*/
@@ -235,16 +202,12 @@ padding: 111px 1139px 120px 215px;
        height: 31px;
        left: 215px;
        top: 2157px;
-
-        font-family:'Raleway';
-        font-style: normal;
+       font-family:'Raleway';
         font-weight: bold;
         font-size: 26px;
         line-height: 36px;
         letter-spacing: 0.03em;
-
-        padding:60px 1240px 161px 215px;
-
+        text-decoration: none;
         color: #000;
   }
 
@@ -266,8 +229,7 @@ line-height: 24px;
 
 
 letter-spacing: 0.03em;
-
-padding: 171px 1154px 60px 215px;  
+ text-decoration: none;
 
 color: rgba(255, 255, 255, 0.6);
   }
@@ -279,16 +241,11 @@ width: 231px;
 height: 21px;
 left: 215px;
 top: 2238px;
-
 font-weight: normal;
 font-size: 14px;
 line-height: 24px;
-
-
 letter-spacing: 0.03em;
-
-padding: 141px 1154px 90px 215px;
-
+text-decoration: none;
 color: rgba(255, 255, 255, 0.6);
 
   }
@@ -302,7 +259,6 @@ color: rgba(255, 255, 255, 0.6);
       height: 600px;
       left: 0px;
       top: 80px;
-
       background-color: #2F303A;
 
     }
@@ -313,17 +269,13 @@ width: 696px;
 height: 120px;
 left: 452px;
 top: 280px;
-
-
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
-
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-
 color: #FFFFFF;
  }
 
@@ -334,19 +286,14 @@ width: 117px;
 height: 30px;
 left: 742px;
 top: 440px;
-
 font-weight: bold;
 font-size: 16px;
 line-height: 30px;
-
-
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-
 color: #FFFFFF;
-
 background-color: #2196F3;
 box-shadow: px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
@@ -385,7 +332,6 @@ color: #212121;
  .lorem-ipsum-3-text,
  .lorem-ipsum-4-text {
      
-font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 24px;
@@ -440,6 +386,8 @@ letter-spacing: 0.03em;
 color: #212121;
 
 }
+
+/*PICTURES*/
 
 .code-picture {
 
